@@ -2,7 +2,6 @@ import{getApp, getApps, initializeApp} from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
-
 const firebaseConfig = {
   apiKey: "AIzaSyCSPq4FVnyP98bQr8R94TP_LVnQvoRMTYw",
   authDomain: "dropbox-clone-9e05a.firebaseapp.com",
