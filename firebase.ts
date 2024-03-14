@@ -3,15 +3,16 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCSPq4FVnyP98bQr8R94TP_LVnQvoRMTYw",
-  authDomain: "dropbox-clone-9e05a.firebaseapp.com",
-  projectId: "dropbox-clone-9e05a",
-  storageBucket: "dropbox-clone-9e05a.appspot.com",
-  messagingSenderId: "161684292550",
-  appId: "1:161684292550:web:1859f5d9711758b76568c7"
+  apiKey: "AIzaSyBoZuJDpx2tERV4jA1Fx0DiamsH2-MFOg4",
+  authDomain: "dropbox-test-3d18c.firebaseapp.com",
+  projectId: "dropbox-test-3d18c",
+  storageBucket: "dropbox-test-3d18c.appspot.com",
+  messagingSenderId: "462246784455",
+  appId: "1:462246784455:web:fb7852cba6d2ddd282fde2"
 };
+
 
 const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const storage = getStorage(app);
- export {db, storage};
+export {db, storage};
